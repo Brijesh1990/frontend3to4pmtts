@@ -1,0 +1,25 @@
+<script>
+    // abstaraction is used to data hidding proceedures 
+    // abstract class can not create its object
+    // abtsarct class is access via inheritance 
+
+    abstract class a 
+    {
+        constructor(nm)
+        {
+            this.nm=nm;
+
+        }
+    }
+    class b extends a 
+    {
+        constructor(nm,age,address)
+        {
+            super(nm);
+            this.age=age;
+            this.address=address;
+        }
+    }
+    var obj=new b("brijesh",35,"150 feet ring road rajkot");
+    console.log(obj);
+</script>

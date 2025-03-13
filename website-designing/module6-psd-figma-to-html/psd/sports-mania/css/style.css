@@ -1,0 +1,25 @@
+@import url('./font-face.css');
+:root 
+{
+ --bg-success:green;
+ --bg-info:lightblue;
+ --bg-warning:yellow;
+ --bg-green:#192733;
+ --bg-brown:#232323;
+ --bg-primary:#3753da;
+ --bg-white:#ffffff;
+ --text-success:green;
+ --text-info:lightblue;
+ --text-warning:yellow;
+ --text-green:#192733;
+ --text-brown:#232323;
+ --text-primary:#3753da;
+ --text-white:#ffffff;
+
+}
+* 
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}

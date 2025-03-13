@@ -1,0 +1,24 @@
+<script>
+    // where function is same and  arguments is also same there we used overriding
+  
+    class A 
+    {
+        constructor(nm,age)
+        {
+            this.nm=nm;
+            this.age=age;
+        }
+    }
+
+    class B extends A 
+    {
+        constructor(nm,age)
+        {
+            super(nm,age)
+
+        }
+    }
+
+    var obj=new B("tej",25);
+    console.log(obj);
+</script>

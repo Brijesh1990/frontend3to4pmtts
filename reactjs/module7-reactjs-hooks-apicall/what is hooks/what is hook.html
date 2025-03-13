@@ -1,0 +1,102 @@
+<!-- 
+what is hook  ?
+  hook is a features or function used in react js
+  hook is add some features while we create an api inside of react js
+  react js hooks is just like stores data and update the data one components to another components
+  React js hooks pass some dependency render data once time | infinite times etc.
+  React js hook is always functional(hook always support function based components ).
+  hook added some features that are ...
+  examples .. fetch data | add callback | add effects | add counts of data etc
+
+  Note : React js hooks is no more support in class based components..
+  
+     import React,{Component,useState} from 'react'
+     class Employee extends Component
+     {
+         render() {
+             const[name,setName]=useState("Brijesh");
+             return(
+             
+             <>
+             <h1>My first name is :{name}
+             </>
+             )
+         
+         }
+        
+     }
+
+
+     solutions ....
+
+      import React,{Component,useState} from 'react'
+    
+          function Employee()
+            {
+             const[name,setName]=useState("Brijesh");
+             
+             return(
+             <>
+             <h1>My first name is :{name}
+             </>
+             )
+
+        }  
+         
+    
+  types of hooks ...
+   
+     a) useState()
+     b) useEffect()
+     c) useRef()
+     d) useReducer()
+     e) useFetch()
+     f) useMemo()
+     g) custom hook
+
+
+
+     a) useState() : useState is an type of hooks inside of react js 
+                     useState is used to destructured of data in array 
+                     useState is used to stored data in object | array | string | boolean | numbers etc.
+                     useState is also used data one components to another 
+                     useState is also used to add | modify | and update data.
+                     
+                     examples : import React,{useState} from 'react'
+
+
+      b) useEffect(): use effect is a type of hooks inside of react js 
+                      useEffect is used to fetch data and applied a effects and did counts app etc.
+                      useEffect provides dependency to render data 
+                      
+                      syntax :
+
+                       useEffect(()=>{statements},dependency);
+
+                       Note : dependency is passed three way inside of use effects 
+                              
+                              
+                        1) no dependency :   useEffect(()=>{statements});
+                                Note : render data again and again 
+
+                                        
+                        2) pass [] array as dependency :   useEffect(()=>{statements},[]);
+                                Note : render data once time
+                                
+                        3) pass a props and state data as dependnecy :         
+                                useEffect(()=>{statements},[props,state]);
+                                Note : render data once time and we can update inside of data        
+
+
+
+    3) useRef : useRef() is type of hook inside of react js
+                useRef is used to pass reference of user input
+                useRef is used tp stored a data from user input
+                
+                examples : import React,{useRef} from 'react'
+
+                const name=useRef("");
+
+                <input type="text" ref={name} placeholder="Name *" />
+
+-->

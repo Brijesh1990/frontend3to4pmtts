@@ -1,0 +1,74 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background:url('https://img.freepik.com/premium-photo/grainy-gradient-background-red-white-blue-colors-with-soft-faded-watercolor-border-texture_927344-24167.jpg') no-repeat;
+    background-size: cover;
+    /* -webkit-animation: 5s alternate anim;
+    -o-animation: 5s alternate anim;
+    -moz-animation: 5s alternate anim;
+    animation: 5s alternate anim; */
+    -webkit-animation: 15s infinite anim;
+    -o-animation: 15s infinite anim;
+    -moz-animation: 15s infinite anim;
+    animation: 15s infinite anim;
+}
+
+/* applied to changed multiple background colors via keyframes */
+
+@keyframes anim {
+    
+   0%
+   {
+    margin: 0;
+    padding: 0;
+    background:url('https://img.freepik.com/premium-photo/grunge-horror-background-with-trash-black-tan-pink-purple_1106493-472710.jpg') no-repeat;
+    background-size: cover;
+   }
+   20% 
+   {
+
+
+    margin: 0;
+    padding: 0;
+    background:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm8RDH6Yabio8RagfUwc1QURCLmiHrshR9Pg&s') no-repeat;
+    background-size: cover;
+
+}
+   40% 
+   {
+
+    margin: 0;
+    padding: 0;
+    background:url('https://png.pngtree.com/background/20210717/original/pngtree-blur-creative-blog-picture-background-picture-image_1447686.jpg') no-repeat;
+    background-size: cover;
+   }
+
+   60% 
+   {
+
+    margin: 0;
+    padding: 0;
+    background:url('https://img.freepik.com/premium-photo/pink-bokeh-glitter-sweet-background-graphic-design-illustration_1048944-27259135.jpg?t=st=1729642269~exp=1729642869~hmac=168e44a2c0f51ca4de4310ed8b0458a7e205ad272c5f2100478f8448b34a3774') no-repeat;
+    background-size: cover;
+   }
+   80% 
+   {
+
+    margin: 0;
+    padding: 0;
+    background:url('https://img.freepik.com/premium-photo/grunge-horror-background-with-trash-black-tan-pink-purple_1106493-472710.jpg') no-repeat;
+    background-size: cover;
+   }
+
+   100% 
+   {
+
+    margin: 0;
+    padding: 0;
+    background:url('https://img.freepik.com/free-vector/bokeh-background-concept_23-2148474869.jpg') no-repeat;
+    background-size: cover;
+   }
+}

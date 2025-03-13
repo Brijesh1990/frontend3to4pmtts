@@ -1,0 +1,16 @@
+<script>
+    // https://brijesh1990.github.io/employee-api.github.com/employee.json
+    // api : api stands for application programming interface
+    // api is called via javascript using fetch() method
+    // api is send request to broswer via its server and server response 
+    // api response generative code 
+    // 404 =>response not found
+    // 200 => response get and api ready to used
+    // 201
+    // 403
+    // 503
+    // api : for fast response of data 
+    fetch('https://brijesh1990.github.io/employee-api.github.com/employee.json')
+    .then(response => response.json())
+    .then(json => console.log(json))
+    </script>

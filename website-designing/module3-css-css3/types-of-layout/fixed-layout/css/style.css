@@ -1,0 +1,119 @@
+/* fixed layout : when we applied any width in ph and height is px or px that type of layout is called fixed layout 
+
+Note : if we create fixed layout it is not responsive but we can create using media query for responsive.
+
+*/
+
+
+@font-face {
+    font-family: cinzel;
+    src: url('../fonts/Cinzel-Regular.ttf');
+}
+body 
+{
+margin: 0;
+padding: 0;
+overflow-x: hidden;    
+font-family: cinzel;
+}
+#header
+{
+width: 1300px;
+height: auto;
+background-color: lightblue;
+padding: 35px;
+display: grid;
+grid-template-columns: auto auto auto;
+}
+.call-us 
+{
+width: 250px;
+height: auto;    
+color: white;
+
+}
+.search-box
+{
+width: 550px;
+height: auto;    
+color: white;
+}
+.search-box input 
+{
+width: 600px;
+height: auto;
+padding: 5px;
+}
+.social-media 
+{
+width: 1250px;
+height: auto;
+margin-left: 10%;
+}
+#navbar
+{
+width: 1400px;
+height: auto;
+display: grid;
+grid-template-columns: auto auto;
+background-color: black;
+color: white;
+}
+.logo
+{
+width: 300px;
+height: auto;
+margin-left: 10%;
+}
+.nav 
+{
+width: 1300px;
+height: auto;
+}
+.nav ul li 
+{
+    display: inline-block;
+    padding: 5px 20px;
+}
+.nav a 
+{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+#slider 
+{
+width: 1400px;
+height: auto;
+margin: auto;
+}
+.slider-img img
+{
+width: 1400px;
+height: 350px;
+}
+#content 
+{
+width: 1400px;
+height: auto;
+display: flex;
+}
+.sidebar 
+{
+width: 500px;
+height: 400px;
+background-color: gray;
+}
+.right-sidebar
+{
+    width: 900px;
+    height: 400px;
+    background-color: lightgray;
+}
+#footer
+{
+width: 1400px;
+height: 200px;
+background-color: black;
+padding: 10px;
+}

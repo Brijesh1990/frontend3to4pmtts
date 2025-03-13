@@ -1,0 +1,54 @@
+<script>
+
+/*
+api stands for application programming interface
+api get data from any url 
+api data formate should be always in json formate
+
+
+examples : {
+    "employee":[
+    
+    {
+      "id":1,
+      "name":"brijesh",
+      "age":35,
+      "salary":89500,
+      "department":"Information technology"
+    },
+
+    
+    {
+      "id":2,
+      "name":"jayraj singh",
+      "age":35,
+      "salary":89500,
+      "department":"Information technology"
+    },
+
+    
+    {
+      "id":3,
+      "name":"Rajesh",
+      "age":35,
+      "salary":19500,
+      "department":"Information technology"
+    }
+    ]
+   }
+
+
+   fetch json data into webpage .....
+
+   fetch('https://jsonplaceholder.typicode.com/todos/1')
+      .then(response => response.json())
+      .then(json => console.log(json))
+
+*/
+ 
+fetch(`https://jsonplaceholder.typicode.com/photos`)
+.then(response=>response.json())
+.then(json=>console.log(json));
+
+
+</script>

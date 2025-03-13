@@ -1,0 +1,33 @@
+
+body 
+{
+  background-color: lightblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+  color: blue;
+}
+a 
+{
+  color: blue;
+}
+span 
+{
+  color: coral;
+}
+h1 
+{
+    color: blue;
+    font-size: 40px;
+    /* animation: 2s tada alternate; */
+    /* animation: 2s tada infinite; */
+    /* animation: 2s fadeIn infinite; */
+    animation: 2s flash infinite;
+    margin-left: 1%;
+}
+hr 
+{
+    width: 45%;
+    border: solid 3px blue;
+    
+}

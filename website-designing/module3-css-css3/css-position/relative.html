@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        body 
+        {
+            margin: 0;
+            padding: 0;
+            background-color: lightgray;
+        }
+        .header 
+        {
+            width: 100%;
+            height: 150px;
+            background-color: white;
+            border-bottom: solid 2px;
+            position: sticky;
+            top: 0;
+            z-index: 1;
+
+        }
+        .slider 
+        {
+            width: 80%;
+            height: 400px;
+            margin-left: 10%;
+            background: url('https://www.iro.umontreal.ca/~vaucher/Tutorials/Jssor_tutorial/Jssor/img/landscape/01.jpg') no-repeat;
+            background-size: 100% 400px;
+            position: relative;
+        }
+        .slider-txt 
+        {
+            width: 60%;
+            height: auto;
+            margin: auto;
+            position: absolute;
+            color: white;
+            top: 25%;
+            left: 20%;
+        }
+        .content 
+        {
+            width: 100%;
+            height: 900px;
+            background-color: aqua;
+            margin-left: 0%;
+            margin-top: 3%;
+            position: relative;
+        }
+       
+        .social
+        {
+            width: 70px;
+            height: auto;
+            padding: 25px;
+            background-color: black;
+            margin-top: 28%;
+            position: fixed;
+        }
+        .social:hover 
+        {
+            width: 200px;
+            background-color: red;
+            padding: 25px;
+            transition: 2s ease all;
+
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header"></div>
+    <div class="slider">
+     <div class="slider-txt">
+        <h1>50% off on Summer vacation Hurry Up</h1>
+        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate ut magni dicta itaque vitae omnis placeat, veniam ipsam, voluptatem blanditiis vero error dolores rem corrupti non unde praesentium enim exercitationem!</p>
+     </div>
+    </div>
+    <div class="content">
+        <div class="social"></div>
+    </div>
+</body>
+</html>

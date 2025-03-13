@@ -1,0 +1,26 @@
+<script>
+    // where function is same and pass diffrent-2 arguments there we used overloading
+  
+    class A 
+    {
+        constructor(nm)
+        {
+            this.nm=nm;
+        }
+    }
+
+    class B extends A 
+    {
+        constructor(nm,age,address,department)
+        {
+            super(nm)
+            this.age=age;
+            this.address=address;
+            this.department=department;
+            
+        }
+    }
+
+    var obj=new B("tej",25,"250 feet ring road","IT");
+    console.log(obj);
+</script>

@@ -1,0 +1,66 @@
+<script>
+ /*what is inheritance ?
+   inheritance is used to access one class properties via another class i.e called inheritance
+   or
+   inheritance is used to access a parent class properties via its child class i.e inheritance
+   types of inheritance ...
+   a) single level inheritance 
+   b) multilevel inheritance
+   c) multiple inheritance (we can not used this in javascript becuase of not support)
+ */
+
+// when we can access one parent class properties only by its one child class i.e called single inheritance
+// A=>B
+// we can used extends keyword to access parent class properties by its child class 
+
+// class A 
+// {
+//     constructor(nm)
+//     {
+//         this.nm=nm;
+//     }
+// }
+// class B extends A 
+// {
+
+//     constructor(name,age,address)
+//     {
+//         super(name);
+//         this.age=age;
+//         this.address=address;
+//     }
+
+// }
+
+// var obj=new B("brijesh",35,"150 feet ring road rajkot");
+// console.log(obj);
+
+class A 
+{
+    constructor(nm)
+    {
+        this.nm=nm;
+    }
+}
+class B extends A 
+{
+    constructor(nm,age,address)
+    {
+        super(nm);
+        this.age=age;
+        this.address=address;
+    }
+}
+class C extends B
+{
+    constructor(nm,age,address,department,companyname)
+    {
+        super(nm,age,address);
+        this.department=department;
+        this.companyname=companyname;
+    }
+}
+var obj=new C("brijesh",35,"150 feet ring road rajkot","IT","Tops technology");
+console.log(obj);
+
+</script>

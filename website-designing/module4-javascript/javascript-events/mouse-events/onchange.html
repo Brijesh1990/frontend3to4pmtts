@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        .cart
+        {
+            width: 50%;
+            margin: auto;
+            height: auto;
+        }
+
+        h1 
+        {
+            width: 100%;
+            height: auto;
+            margin: auto;
+            background-color: black;
+            color: white;
+            padding: 10px;
+            text-align: right !important;
+            margin-top: 3%;
+
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="cart">
+        <h2>View Cart</h2>
+        <hr>
+        <table align="center" width="100%">
+            <tr align="center">
+                <td><img src="https://images.jdmagicbox.com/quickquotes/images_main/samsung-guru-music-2-dual-sim-gold-240858702-5403e.png" width="85px" height="100px"></td>
+                <td>samsung guru</td>
+                <td>Rs.<input type="text" id="price" value="2350" readonly style="border: none; width: 85px;"></td>
+                <td>qty <input type="number" value="1" id="qty" min="1" max="10" onchange="display()" /></td>
+                <td><a href="">delete</a></td>
+            </tr>
+
+            <tr>
+                <td colspan="6"><h1>Subtotals of Products : Rs. <label id="tot">2350</label></h1></td>
+            </tr>
+        </table>
+    </div>
+
+
+
+    <!-- subtotal of price after change qtyl -->
+
+    <script>
+        function display()
+        {
+          var p=document.getElementById("price").value;
+          var q=document.getElementById("qty").value;
+          var res=p*q;
+          document.getElementById("tot").innerHTML=res;
+        }
+    </script>
+</body>
+</html>

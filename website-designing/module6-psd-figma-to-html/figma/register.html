@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+<title>Flora react estate services | Provides Real estate services</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<!-- bootstrap stylesheet -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+<!-- bootstrap js -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>    
+<script src='js/main.js'></script>
+</head>
+<body>
+<!-- flora header sections -->
+<section id="flora-header" class="p-3 fixed-top">
+<div class="container">    
+<nav class="nav navbar navbar-expand-md">   
+<!-- logo -->
+<a href="" class="navbar-brand"><img src="images/logo.png"></a>   
+<!-- navbar -->
+<button type="button" class="btn active navbar-toggler" data-bs-toggle="collapse" data-bs-target="#togg"><span class="bi bi-grid"></span></button>
+<div class="collapse navbar-collapse" id="togg">
+<ul class="navbar-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="services.html">services</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="property.html">New property</a></li>
+<li><a href="contact.html">contact</a></li>
+<li class="dropdown"><a href="#" data-bs-toggle="dropdown" class="btn btn-lg  rounded-5 active text-white dropdown-toggle">Account <span class="bi bi-person-add"></span></a>
+<ul class="dropdown-menu">
+<li><a href="register.html">Register <span class="bi bi-person-add"></span></a></li>
+<li><a href="#" data-bs-toggle="modal" data-bs-target="#login">Login <span class="bi bi-person-add"></span></a></li>
+</ul>
+</li>  
+</ul>
+</div>
+</nav>
+</div>        
+</section>
+<!-- flora page banner sections -->
+<section id="flora-banner-page">
+<div class="flora-banner-text container mt-5 p-5">
+<h1 class="text-white">Create Your Account <br/></h1>
+<nav aria-label="breadcrumb" class="p-2 bg-white w-25 fs-5">
+<ol class="breadcrumb">
+<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+<li class="breadcrumb-item" aria-current="page">Register</li>
+</ol>
+</nav>
+
+</div>
+</section>
+<!-- flora content sections -->
+<section id="flora-content">
+<!-- create form -->
+<div class="container p-5 mt-5">
+<div class="row">
+<div class="col-md-6 modal-login p-5">
+
+<img src="https://static.vecteezy.com/system/resources/thumbnails/027/205/841/small_2x/login-and-password-concept-3d-illustration-computer-and-account-login-and-password-form-page-on-screen-3d-illustration-png.png" class="img-fluid" />
+</div>
+<div class="col-md-6 p-5 mt-0">
+<div class="form-group mt-2">
+<input type="email" placeholder="email *" required class="form-control" />
+</div>
+<div class="form-group mt-3">
+<input type="password" placeholder="Password *" required class="form-control" />
+</div>
+<div class="form-group mt-3">
+<input type="password" placeholder="Reenter-Password *" required class="form-control" />
+</div>
+
+<div class="form-group mt-3">
+<input type="text" placeholder="Phone *" required class="form-control" />
+</div>
+
+<div class="form-group mt-3">
+<textarea placeholder="Address *" required class="form-control" ></textarea>
+</div>
+
+<div class="form-group mt-3">
+<input type="submit" class="btn btn-md btn-primary text-white" value="SignUp" />
+<input type="reset" class="btn btn-md btn-danger ms-2 text-white" value="Reset" />
+
+</div>
+
+<div class="form-group mt-3">
+<b class="ms-0">Already have an account ?<a href="#" data-bs-toggle="modal" data-bs-target="#login">Login here </a></b>
+</div>
+</div>
+</div>
+</div>
+
+</section>
+<!-- flora footer sections -->
+<section id="flora-footer"></section>
+<!-- create a modal for login -->
+<div class="modal fade" id="login" role="dialog">
+<div class="modal-dialog" style="max-width: 60%; margin-top: 5%;">
+<div class="modal-content">
+<div class="row">
+<div class="col-md-6 modal-login p-5">
+<h1 class="mt-3 text-white">Create an Account</h1>
+<h3><button type="button" class="btn btn-white bg-white w-100 mt-4">Create Account here</button></h3>
+<img src="https://static.vecteezy.com/system/resources/thumbnails/027/205/841/small_2x/login-and-password-concept-3d-illustration-computer-and-account-login-and-password-form-page-on-screen-3d-illustration-png.png" class="img-fluid w-75 h-75" />
+</div>
+<div class="col-md-6 p-5 mt-5">
+<button class="btn btn-sm btn-danger text-white float-end" data-bs-dismiss="modal">&times;</button>
+<div class="form-group mt-5">
+<input type="email" placeholder="email *" required class="form-control" />
+</div>
+<div class="form-group mt-3">
+<input type="password" placeholder="Password *" required class="form-control" />
+</div>
+
+<div class="form-group mt-3">
+<input type="submit" class="btn btn-md btn-primary text-white" value="SignIn" />
+<b class="ms-3"><a href="#">Forget Password ?</a></b>
+</div>
+
+<div class="form-group mt-3">
+<b class="ms-3">Don't have an account ?<a href="" data-bs-toggle="modal" data-bs-target="#login">Create account </a></b>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade" id="login" role="dialog">
+<div class="modal-dialog" style="max-width: 60%; margin-top: 5%;">
+<div class="modal-content">
+<div class="row">
+<div class="col-md-6 modal-login p-5">
+<h1 class="mt-3 text-white">Create an Account</h1>
+<h3><button type="button" class="btn btn-white bg-white w-100 mt-4">Create Account here</button></h3>
+<img src="https://static.vecteezy.com/system/resources/thumbnails/027/205/841/small_2x/login-and-password-concept-3d-illustration-computer-and-account-login-and-password-form-page-on-screen-3d-illustration-png.png" class="img-fluid" />
+</div>
+<div class="col-md-6 p-5 mt-5">
+<button class="btn btn-sm btn-danger text-white float-end" data-bs-dismiss="modal">&times;</button>
+<div class="form-group mt-5">
+<input type="email" placeholder="email *" required class="form-control" />
+</div>
+<div class="form-group mt-3">
+<input type="password" placeholder="Password *" required class="form-control" />
+</div>
+
+<div class="form-group mt-3">
+<input type="submit" class="btn btn-md btn-primary text-white" value="SignIn" />
+<b class="ms-3"><a href="#">Forget Password ?</a></b>
+</div>
+
+<div class="form-group mt-3">
+<b class="ms-3">Don't have an account ?<a href="#">Create account </a></b>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- create a modal for forget password -->
+</body>
+</html>

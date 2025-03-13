@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+body 
+{
+ margin: 0;
+ padding: 0;
+ overflow-x: hidden;
+ box-sizing: border-box;
+ background: url('https://www.verywellhealth.com/thmb/GXgk5oXpQWDe0N_-UHh3Aa_wCqk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-519516073-962e173b7e2149d69c4f66915fd491f6.jpg') no-repeat;
+ background-position: center;   
+ background-size: cover;
+}

@@ -1,0 +1,12 @@
+step1:create an account on github.com
+step2: login with github account 
+step3: create an repository
+step4:download an git software to upload data on repository
+step5:write all commnds to upload on github
+
+a)git init
+b)git add README.md
+c)git commit -m "first commit"
+d)git branch -M main
+e)git remote add origin https://github.com/Brijesh1990/frontend3to4pmtts.git
+f)git push -u origin main

@@ -1,0 +1,21 @@
+body 
+{
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+box-sizing: border-box;
+background: url('https://static.vecteezy.com/system/resources/thumbnails/040/890/255/small_2x/ai-generated-empty-wooden-table-on-the-natural-background-for-product-display-free-photo.jpg') no-repeat;
+background-position: center;
+background-size: cover;    
+}
+
+.list-app
+{
+width: 50%;
+height: auto;
+margin: auto;
+border: solid 25px transparent;
+margin-top: 3%;
+border-image: url('https://i.pinimg.com/736x/a6/7b/87/a67b8789a437eb192db1f2fa3447f641.jpg') 100 round;    
+
+}

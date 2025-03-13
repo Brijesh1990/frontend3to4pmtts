@@ -1,0 +1,20 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background: lightgray;
+    background: -webkit-radial-gradient(lightgray,yellow);
+    background: -o-radial-gradient(lightgray,yellow);
+    background: -moz-radial-gradient(lightgray,yellow);
+    background: radial-gradient(lightgray,yellow);
+}
+
+.box 
+{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+}

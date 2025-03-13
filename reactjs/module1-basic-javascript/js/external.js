@@ -1,0 +1,1 @@
+alert('hi i am loading external javascript')

@@ -1,0 +1,106 @@
+<script>
+/*what is json in javascript ?
+   json stands for javascript object notation
+   json is used to create a web api 
+   api data is always get in json formate
+
+   examples : employee.json 
+              
+     {
+      "employee":[
+      
+      {
+        "id":1,
+        "name":"brijesh",
+        "age":35,
+        "salary":89500,
+        "department":"Information technology"
+      },
+
+      
+      {
+        "id":2,
+        "name":"jayraj singh",
+        "age":35,
+        "salary":89500,
+        "department":"Information technology"
+      },
+
+      
+      {
+        "id":3,
+        "name":"Rajesh",
+        "age":35,
+        "salary":19500,
+        "department":"Information technology"
+      },
+      ]
+     }
+
+
+    //  there are two function are used in javascript to manage json data
+
+    a) json.parse() : convert string into json object
+    b) json.stringify() : convert any json object into json string 
+
+
+
+*/
+
+
+
+var emp={
+      "employee":[
+      
+      {
+        "id":1,
+        "name":"brijesh",
+        "age":35,
+        "salary":89500,
+        "department":"Information technology"
+      },
+
+      
+      {
+        "id":2,
+        "name":"jayraj singh",
+        "age":35,
+        "salary":89500,
+        "department":"Information technology"
+      },
+
+      
+      {
+        "id":3,
+        "name":"Rajesh",
+        "age":35,
+        "salary":19500,
+        "department":"Information technology"
+      },
+      ]
+     }
+
+
+    //  var result=JSON.stringify(emp);
+    //  console.log(result);
+
+    
+    var result=JSON.stringify(emp);
+    //  console.log(typeof(result));
+    console.log((result));
+
+    var emp=`{"employee":[{"id":1,"name":"brijesh","age":35,"salary":89500,"department":"Information technology"},{"id":2,"name":"jayraj singh","age":35,"salary":89500,"department":"Information technology"},{"id":3,"name":"Rajesh","age":35,"salary":19500,"department":"Information technology"}]}`;
+    var result=JSON.parse(emp);
+
+    // console.log(result);
+    
+    console.log(typeof(result));
+
+
+
+
+
+
+
+
+</script>

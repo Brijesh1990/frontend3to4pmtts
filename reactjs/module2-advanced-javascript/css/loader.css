@@ -1,0 +1,30 @@
+body 
+{
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+}
+.app
+{
+width: 60%;
+height: auto;
+margin: auto;
+padding: 15px;
+margin-top: 12%;    
+}
+/* loader stylesheet */
+#loader
+{
+width: 550px;
+height: 420px;
+background: url('../images/dog.gif') no-repeat;
+background-size: 550px 420px;
+background-attachment: center;
+position: absolute !important;
+top: 8% !important;
+left: 30% !important;
+}
+#mainSection
+{
+display: none;
+}

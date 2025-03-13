@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+ 
+    <img src="images/1.webp" alt="img" id="img" width="350px" height="350px" onmouseover="display2()" onmouseout="display1()"/>
+    <script>
+        function display1()
+        {
+            document.getElementById("img").src='images/1.webp';
+        }
+        
+        function display2()
+        {
+            document.getElementById("img").src='images/2.avif';
+        }
+    </script>
+</body>
+</html>

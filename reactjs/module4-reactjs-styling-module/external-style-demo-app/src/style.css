@@ -1,0 +1,76 @@
+body 
+{
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+box-sizing: border-box;    
+}
+.app
+{
+width: 80%;
+height: auto;
+margin: auto;
+padding: 20px;
+display: grid;
+grid-template-columns: auto auto;
+}
+.add1 
+{
+ width: 90%;
+ height: auto;
+ margin: auto;
+ padding: 25px;
+ background-color: red !important;
+ color: white !important;   
+ font-size: 19px;
+}
+
+.add2 
+{
+ width: 90%;
+ height: auto;
+ margin: auto;
+ padding: 25px;
+ background-color: coral !important;
+ color: white !important;   
+ font-size: 19px;
+}
+
+.add3 
+{
+
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding: 25px;
+    background-color: blueviolet !important;
+    color: white !important;   
+    font-size: 19px;
+    margin-top: 2%;
+    
+}
+
+.add4
+{
+   
+     width: 90%;
+     height: auto;
+     margin: auto;
+     padding: 25px;
+     background-color: black !important;
+     color: white !important;   
+     font-size: 19px;
+     margin-top: 2%;
+     
+    
+}
+
+.footer 
+{
+width: 80%;
+height: auto;
+margin: auto;
+background-color: black;
+color: white;
+padding: 10px;    
+}

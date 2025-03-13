@@ -1,0 +1,45 @@
+what is html  ? 
+html stands for hypertext markup language 
+html file extension is .html or .htm
+html first time release in 1986 by tim berner lee 
+html is used for make any website home page or web pages. 
+html hypertext meanse redirect one page to another page i.e called hypertext 
+html is also called markup language it is load on web broswers and we can se code on web broswers.  
+html used to make any webpage or home page for website 
+html used some tags 
+  types of html tags :
+  a) paired tags 
+     examples : <p>This is paragraph tag</p>
+                <h1>This is heading1 tag</h1>
+
+  b) non-paired tags
+     examples : <hr>
+                <input>
+                <br>
+                <img>
+                <meta>
+                <link>
+
+html skelton or structure 
+
+   structure.html 
+
+   <!DOCTYPE html>
+   <html>
+   <head>
+   <title></title>
+   <meta />
+   <link>
+   <style></style>
+   <script></script>
+   <noscript></noscript>
+   </head>
+   <body>
+   
+   </body>
+   </html>
+
+
+
+
+

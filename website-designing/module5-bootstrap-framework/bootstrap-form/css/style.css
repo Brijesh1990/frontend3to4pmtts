@@ -1,0 +1,19 @@
+body{
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+background-color: lightgray;
+}
+.bi-geo
+{
+    color: white;
+    font-size: 65px !important;
+}
+
+@media only screen and (max-width:580px)
+{
+.leftsidebar,.rightsidebar
+{
+margin-left: 0 !important;  
+}    
+}

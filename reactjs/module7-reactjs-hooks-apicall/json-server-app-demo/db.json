@@ -1,0 +1,50 @@
+{
+    "customers":[
+        {
+            "id":1001,
+            "name":"brijesh",
+            "age":35,
+            "pincode":360005
+        },
+        {
+            "id":1002,
+            "name":"rajesh",
+            "age":32,
+            "pincode":360006
+        }
+    ],
+
+    "contacts-us":[
+        {
+            "id":1001,
+            "name":"brijesh",
+            "email":"b@gmail.com",
+            "subject":"hi",
+            "message":"hi"
+        },
+        {
+            "id":1002,
+            "name":"parag",
+            "email":"parag@gmail.com",
+            "subject":"hi",
+            "message":"hi"
+        }
+    ],
+
+    "feedback":[
+        {
+            "id":1001,
+            "name":"brijesh",
+            "email":"b@gmail.com",
+            "subject":"hi",
+            "message":"hi"
+        },
+        {
+            "id":1002,
+            "name":"brijesh",
+            "email":"b@gmail.com",
+            "subject":"hi",
+            "message":"hi"
+        }
+    ]
+}

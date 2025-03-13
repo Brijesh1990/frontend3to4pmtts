@@ -1,0 +1,31 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: aliceblue;
+}
+
+.app 
+{
+    width: 30%;
+    height: 250px;
+    margin: auto;
+    border: solid 8px green;
+    margin-top: 5%;
+}
+.app-box 
+{
+    width: 50%;
+    height: 200px;
+    margin: auto;
+    margin-top: 3%;
+    background-color: white;
+    border:dotted 5px black;
+    overflow: auto;
+}
+.app-box p 
+{
+    text-align: justify;
+    padding: 20px;
+}

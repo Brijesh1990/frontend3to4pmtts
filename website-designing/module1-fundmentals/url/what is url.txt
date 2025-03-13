@@ -1,0 +1,10 @@
+what is URL ?
+ URL stands for universal Resource Locator
+ for open any website we write its URL.
+
+ types of URL 
+
+ a) absolute URL 
+     examples : https://www.flipkart.com
+ b) relative url
+    examples : https://www.flipkart.com/viewcart?exploreMode=true&preference=FLIPKART 

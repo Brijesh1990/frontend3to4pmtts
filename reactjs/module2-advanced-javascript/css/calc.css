@@ -1,0 +1,37 @@
+body 
+{
+margin: 0;
+padding: 0;    
+}
+.calculator input 
+{
+text-align: right;
+font-size: 30px;    
+}
+.btn-default
+{
+    background-color: aliceblue !important;
+    width: 24.5% !important;
+}
+.btn-default1
+{
+    width: 24.5% !important;
+    background-color: blue !important;
+    color: white !important;
+}
+
+@media only screen and (max-width:580px)
+{
+    .btn-default
+    {
+        background-color: black !important;
+        width: 24% !important;
+        color: white !important;
+    }
+    .btn-default1
+    {
+        width: 24% !important;
+        background-color: blue !important;
+        color: white !important;
+    }   
+}

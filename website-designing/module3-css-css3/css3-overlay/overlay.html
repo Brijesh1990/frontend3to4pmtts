@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+    body 
+    {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        box-sizing: border-box;
+        background-color: lightgray;
+    }    
+    .main 
+    {
+        width: 80%;
+        height: auto;
+        margin: auto;
+    }
+    .main h1 
+    {
+        font-size: 48px;
+    }
+    .main hr 
+    {
+        width: 40%;
+        border: solid 2px;
+    }
+    .container 
+    {
+        width: 30%;
+        height: auto;
+        margin: auto;
+        position: relative;
+        margin-top: 8%;
+        float: left;
+        margin: 15px;
+    }
+    .image 
+    {
+     display: block;
+     width: 100%;
+     height: auto;    
+
+    }
+    .overlay 
+    {
+        position: absolute;
+        transition: 0.8s ease all;
+        background: rgb(0,0,0);
+        background: rgb(0,0,0,0.7);
+        bottom: 0 !important;
+        opacity: 0;
+        min-width: 88%;
+        height: auto;
+        padding: 20px;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+    }
+    .container:hover .overlay
+    {
+        display: block;
+        opacity: 1;
+    }
+
+    </style>
+</head>
+<body>
+   <div class="main">
+    <h1>OverLay Properties</h1>
+    <hr align="left" />
+    
+
+    <div class="container">
+        <img src="https://www.w3schools.com/w3images/avatar6.png" class="image" alt="avtar" />
+        <div class="overlay">This is Komal <br> 
+        Mernstack developer</div>
+    </div>
+    
+
+    <div class="container">
+        <img src="https://www.w3schools.com/w3images/avatar6.png" class="image" alt="avtar" />
+        <div class="overlay">This is Komal <br> 
+        Mernstack developer</div>
+    </div>
+    
+
+    <div class="container">
+        <img src="https://www.w3schools.com/w3images/avatar6.png" class="image" alt="avtar" />
+        <div class="overlay">This is Komal <br> 
+        Mernstack developer</div>
+    </div>
+</div>
+    
+</body>
+</html>

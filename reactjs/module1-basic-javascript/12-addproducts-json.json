@@ -1,0 +1,50 @@
+{
+   "addproducts":[
+    {
+        "id":1,
+        "pname":"samsung guru",
+        "price":850,
+        "qty":1,
+        "photo":"https://m.media-amazon.com/images/I/71+mWnUbb6L.jpg",
+        "descriptions":"good for key lovers"
+        
+    },
+
+    {
+        "id":2,
+        "pname":"samsung guru",
+        "price":850,
+        "qty":1,
+        "photo":"https://m.media-amazon.com/images/I/71+mWnUbb6L.jpg",
+        "descriptions":"good for key lovers"
+        
+    },
+    {
+        "id":3,
+        "pname":"samsung guru",
+        "price":850,
+        "qty":1,
+        "photo":"https://m.media-amazon.com/images/I/71+mWnUbb6L.jpg",
+        "descriptions":"good for key lovers"
+        
+    },
+    {
+        "id":4,
+        "pname":"samsung guru",
+        "price":850,
+        "qty":1,
+        "photo":"https://m.media-amazon.com/images/I/71+mWnUbb6L.jpg",
+        "descriptions":"good for key lovers"
+        
+    },
+    {
+        "id":5,
+        "pname":"samsung guru",
+        "price":850,
+        "qty":1,
+        "photo":"https://m.media-amazon.com/images/I/71+mWnUbb6L.jpg",
+        "descriptions":"good for key lovers"
+        
+    }
+   ] 
+}

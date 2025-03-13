@@ -1,0 +1,493 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+#portfolio-header {
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  background-color: #2c3e50;
+  display: flex;
+  flex-direction: row;
+  position: sticky;
+  top: 0;
+}
+.logo {
+  width: 50%;
+  height: auto;
+  margin-left: 4%;
+  animation: 2s fadeInLeft alternate;
+}
+.logo h1 {
+  color: white;
+  font-size: 34px;
+  text-transform: uppercase;
+  animation: 4s fadeIn infinite;
+}
+.navbar {
+  width: 50%;
+  height: auto;
+  animation: 2s fadeInLeft alternate;
+}
+.navbar ul li {
+  display: inline-block;
+  padding: 15px 12px;
+}
+.navbar a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+#portfolio-hero-section {
+  width: 100%;
+  height: auto;
+  padding: 25px;
+  background-color: #18bc9c;
+}
+.slider-txt {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  animation: 2s fadeInLeft alternate;
+}
+.slider-txt img {
+  width: 40%;
+  height: auto;
+  margin-left: 30%;
+  animation: 2s fadeInLeft alternate;
+}
+.slider-txt h1 {
+  text-align: center;
+  font-size: 85px;
+  color: white;
+  line-height: 1px;
+  animation: 2s fadeInLeft alternate;
+}
+.slider-txt p {
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: white;
+  animation: 2s fadeInLeft alternate;
+}
+.slider-txt hr {
+  width: 30%;
+  height: auto;
+  border: solid 3px white;
+  animation: 2s fadeInLeft alternate;
+}
+
+#portfolio-content {
+  width: 100%;
+  height: auto;
+  padding: 0px;
+  background-color: white;
+  animation: 2s fadeInLeft alternate;
+  position: relative !important;
+}
+.portfolio {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  line-height: 1 !important;
+}
+.portfolio h1 {
+  font-size: 65px;
+  text-align: center;
+  margin-top: 5%;
+  line-height: 0.2;
+}
+.portfolio hr {
+  width: 30%;
+  border: solid 3px #233140;
+  line-height: 1.4 !important;
+}
+.portfolio img {
+  width: 100%;
+  height: auto;
+}
+.photoshop {
+  width: 80%;
+  height: auto;
+  margin: auto;
+}
+.photoshop h1 {
+  font-size: 65px;
+  text-align: center;
+  margin-top: 5%;
+  line-height: 0.2;
+}
+
+.photoshop hr {
+  width: 30%;
+  border: solid 3px #233140;
+  line-height: 1.4 !important;
+}
+.photoshop img {
+  width: 30%;
+  height: 250px;
+  margin: 15px;
+}
+.about-us {
+  width: 100%;
+  height: auto;
+  background-color: #18bc9c;
+  padding: 20px;
+}
+.about-txt {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+.about-txt h1{
+  font-size: 65px;
+  text-align: center;
+  margin-top: 5%;
+  line-height: 0.2;
+  color: white;
+}
+
+.contact-us 
+{
+  margin-top: 2%;
+}
+.contact-us h1,.download-resume h1
+{
+  font-size: 65px;
+  text-align: center;
+  margin-top: 5%;
+  line-height: 0.2;
+  color: #233140;
+}
+.contact-us hr,.download-resume hr
+{
+  width: 20%;
+  border: solid 3px #233140;
+  line-height: 1.4 !important;
+}
+.contact-us form 
+{
+  width: 60%;
+  height: auto;
+  margin: auto;
+  padding: 15px;
+}
+.contact-us legend 
+{
+  font-size: 40px;
+}
+.contact-us input[type="text"],textarea
+{
+  width: 60%;
+  height: auto;
+  margin: auto;
+  padding: 10px;
+  margin-left: 20%;
+  border: none;
+  border-bottom: solid #233140 3px;
+}
+
+.contact-us input[type="submit"]
+{
+  width: 20%;
+  height: auto;
+  margin: auto;
+  padding: 15px;
+  margin-left: 20%;
+  border: none;
+  background-color: #233140;
+  color: white;
+}
+.about-txt hr {
+  width: 30%;
+  border: solid 3px white;
+  line-height: 1.4 !important;
+}
+.about-txt p {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  text-indent: 85px;
+  text-align: justify;
+  font-size: 18px;
+}
+#portfolio-footer {
+  width: 100%;
+  height: auto;
+  padding: 25px;
+  background-color: #2c3e50;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+}
+.location {
+  width: 33%;
+  height: auto;
+  padding: 10px;
+}
+.arround {
+  width: 33%;
+  height: auto;
+  padding: 10px;
+}
+.contact {
+  width: 33%;
+  height: auto;
+  padding: 10px;
+}
+.location h1,p,.arround h1 ,p,.contact h1,p 
+{
+    text-align: center;
+    color: white;
+    font-size: 22px;
+}
+
+/* mobile */
+@media only screen and (max-width:580px)
+{
+
+  #portfolio-header {
+    width: 100% !important;
+    height: auto !important;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: #2c3e50;
+    position: sticky;
+    top: 0;
+  }
+  .logo {
+    width: 100%;
+    height: auto;
+    margin-left: 2%;
+  }
+  .logo h1 {
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .navbar {
+    width: 100% !important;
+    height: auto;
+  }
+  .navbar ul li {
+    display: inline-block;
+    padding: 5px 10px;
+  }
+  .navbar a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    list-style-type: none;
+    text-transform: uppercase;
+  }
+
+#portfolio-hero-section {
+  width: 100%;
+  height: auto;
+  padding: 25px;
+  background-color: #18bc9c;
+}
+.slider-txt {
+  width: 80%;
+  height: auto;
+  margin: auto;
+}
+.slider-txt img {
+  width: 70%;
+  height: auto;
+  margin-left: 15%;
+}
+.slider-txt h1 {
+  text-align: center;
+  font-size: 65px;
+  color: white;
+  line-height: 1px;
+}
+
+
+#portfolio-content {
+  width: 100%;
+  height: auto;
+  padding: 0px;
+  background-color: white;
+}
+.portfolio {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  line-height: 1 !important;
+}
+
+.photoshop {
+  width: 80%;
+  height: auto;
+  margin: auto;
+}
+.photoshop h1 {
+  font-size: 65px;
+  text-align: center;
+  margin-top: 5%;
+  line-height: 0.2;
+}
+
+.photoshop hr {
+  width: 30%;
+  border: solid 3px #233140;
+  line-height: 1.4 !important;
+}
+.photoshop img {
+  width: 42%;
+  height: auto;
+  margin: 15px;
+}
+.about-us {
+  width: 100%;
+  height: auto;
+  background-color: #18bc9c;
+  padding: 20px;
+}
+.about-txt {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+.about-txt h1{
+  font-size: 65px;
+  text-align: center;
+  margin-top: 5%;
+  line-height: 0.2;
+  color: white;
+}
+
+.contact-us 
+{
+  margin-top: 2%;
+}
+.contact-us h1
+{
+  font-size: 65px;
+  text-align: center;
+  margin-top: 5%;
+  line-height: 0.2;
+  color: #233140;
+}
+.contact-us hr,.download-resume hr
+{
+  width: 20%;
+  border: solid 3px #233140;
+  line-height: 1.4 !important;
+}
+.contact-us form 
+{
+  width: 80%;
+  height: auto;
+  margin: auto;
+  padding: 15px;
+}
+.contact-us legend 
+{
+  font-size: 40px;
+}
+.contact-us input[type="text"],textarea
+{
+  width: 70%;
+  height: auto;
+  margin: auto;
+  padding: 10px;
+  margin-left: 15%;
+  border: none;
+  border-bottom: solid #233140 3px;
+}
+
+.contact-us input[type="submit"]
+{
+  width: 30%;
+  height: auto;
+  margin: auto;
+  padding: 15px;
+  margin-left: 15%;
+  border: none;
+  background-color: #233140;
+  color: white;
+}
+.about-txt hr {
+  width: 30%;
+  border: solid 3px white;
+  line-height: 1.4 !important;
+}
+.about-txt p {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  text-indent: 85px;
+  text-align: justify;
+  font-size: 18px;
+}
+
+.download-resume h1
+{
+font-size: 35px !important;
+}
+
+#portfolio-footer {
+  width: 100%;
+  height: auto;
+  padding: 25px;
+  background-color: #2c3e50;
+  display: block !important;
+  margin-top: 5%;
+}
+.location {
+  width: 80%;
+  height: auto;
+  padding: 10px;
+}
+.arround {
+  width: 80%;
+  height: auto;
+  padding: 10px;
+}
+.contact {
+  width: 80%;
+  height: auto;
+  padding: 10px;
+}
+.location h1,p,.arround h1 ,p,.contact h1,p 
+{
+    text-align: center;
+    color: white;
+    font-size: 22px;
+}
+
+  
+}
+/* tablet  */
+@media only screen and (max-width:767px)
+{
+
+}
+
+/* laptop */
+@media only screen and (max-width:1024px)
+{
+
+}
+
+
+/* dekstop */
+@media only screen and (max-width:1240px)
+{
+
+}

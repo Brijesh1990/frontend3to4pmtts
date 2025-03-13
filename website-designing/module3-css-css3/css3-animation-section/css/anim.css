@@ -1,0 +1,25 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+.box1 
+{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    padding: 35px;
+    background-color: white;
+    margin-top: 5%;
+    /* -webkit-animation: 2s fadeIntBig alternate;
+    -moz-animation: 2s fadeInLeftBig alternate;
+    -o-animation: 2s fadeInLeftBig alternate;
+    animation: 2s fadeInLeftBig alternate; */
+
+    -webkit-animation: 2s fadeInRightBig alternate;
+    -moz-animation: 2s fadeInRightBig alternate;
+    -o-animation: 2s fadeInRightBig alternate;
+    animation: 2s fadeInRightBig alternate;
+}

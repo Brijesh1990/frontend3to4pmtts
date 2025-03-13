@@ -1,0 +1,26 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+#main 
+{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding: 25px;
+    display: none;
+}
+#loader
+{
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    /* background: url('../images/loader3.gif') no-repeat; */
+    background: url('../images/loader.gif') no-repeat;
+    background-size: 350px 350px;
+}

@@ -1,0 +1,29 @@
+body
+{
+margin: 0;
+padding: 0;
+
+}
+.loader-app
+{
+width: 50%;
+height: auto;
+margin: auto;     
+}
+.loader-app img 
+{
+width: 50%;
+height: auto;
+margin: auto;
+margin-top: 20%;
+    
+}
+
+/* iccream main stylesheet */
+#icecream-header
+{
+width: 100%;
+height: auto;
+margin: auto;
+    
+}

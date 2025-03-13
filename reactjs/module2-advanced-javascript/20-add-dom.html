@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <script>
+    function clc()
+    {
+        var a=parseInt(document.getElementById("a").value); // string to integer typeCasting
+        var b=parseInt(document.getElementById("b").value); // string to integer typeCasting
+        var c=a+b;
+        document.getElementById("result").innerHTML="Additions of Numbers is :"+c;
+    }
+    </script>
+    <form>
+        <p id="result"></p>
+        <h1>Additions</h1>
+        <input type="text" id="a" placeholder="Enter N1 number" />
+        <br><br>
+        
+        <input type="text" id="b" placeholder="Enter N2 number" />
+        <br><br>
+        
+        <button type="button" onclick="clc()" id="a" placeholder="Enter N1 number" >Additions</button>
+        
+    </form>
+</body>
+</html>

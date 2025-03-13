@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>additions</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        body 
+        {margin: 0;
+        padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-color: gray;
+}
+.content 
+{
+    width: 30%;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    margin-top: 10%;
+}
+    </style>
+
+  <script>
+    function ad()
+    {
+        var a=parseInt(document.getElementById("n1").value);
+        var b=parseInt(document.getElementById("n2").value);
+        var c=a+b;
+        document.getElementById("result").innerHTML="The additions of numbers is :"+c;
+
+
+    }
+  </script>  
+</head>
+<body>
+   <div class="content">
+    <p id="result"></p>
+    <form>
+        Enter a values :<input type="text" id="n1" placeholder="Enter n1 number">
+        <br><br>
+        
+        Enter b values :<input type="text" id="n2" placeholder="Enter n2 number">
+        <br><br>
+
+        <button type="button" onclick="ad()">Click to add</button>
+    </form>
+    
+   </div>
+    
+</body>
+</html>

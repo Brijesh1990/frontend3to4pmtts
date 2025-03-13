@@ -1,0 +1,92 @@
+/* portfolio samples links 
+
+https://p.w3layouts.com/demos_new/template_demo/29-02-2020/mix-liberty-demo_Free/540154905/web/index.html?_gl=1*14auadc*_ga*MTMyMTgzMzY0LjE3MzI4NzAyMjU.*_ga_9HSZ46TKMQ*MTczMjg3MDIyNC4xLjEuMTczMjg3MDMwMi40NS4wLjA.*_ga_EGV5GTJEP5*MTczMjg3MDIyNC4xLjEuMTczMjg3MDMwMi4wLjAuMA..*_ga_FFZF56TTWE*MTczMjg3MDIyNS4xLjEuMTczMjg3MDMwMi4wLjAuMA..
+
+*/
+body 
+{
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+box-sizing: border-box;
+
+}
+.nav 
+{
+width: 100%;    
+height: auto;
+background-color: white !important;
+}
+.navbar-link 
+{
+ margin-left: 28%   
+}
+.navbar-link li 
+{
+    padding: 3px 28px;
+    display: inline-block;
+}
+.navbar-link a 
+{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    font-size: 20px;
+}
+.dropdown-menu a 
+{
+    color: white !important;
+}
+
+#slider 
+{
+width: 100%;
+height: 650px;
+background: url('../images/man.jpg') no-repeat;
+background-size: 100% 650px;    
+}
+.portfolio
+{
+    position: relative !important;
+    margin-top: 5%;
+}
+.slider-text
+{
+    position: absolute !important;
+    margin-top: 10%;
+    
+}
+
+@media only screen and (max-width:580px) {
+    
+#slider 
+{
+width: 100%;
+height: 400px;
+background: url('../images/man.jpg') no-repeat;
+background-size: 100% 400px;    
+}
+.portfolio
+{
+    max-width: 100% !important;
+    position: relative !important;
+    margin-top: 5%;
+}
+.slider-text
+{
+    position: absolute !important;
+    margin-top: 10%;
+    margin-left: 0px !important;
+}  
+.navbar-link 
+{
+ margin-left: 0 !important;  
+} 
+.navbar-link li 
+{
+    padding: 5px 5px;
+    display: block;
+    margin: 0px !important;
+}
+
+}

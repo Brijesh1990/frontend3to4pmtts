@@ -1,0 +1,49 @@
+body{
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+background-color: lightgray;
+}
+.bi-geo
+{
+    color: white;
+    font-size: 65px !important;
+}
+.navbar-links 
+{
+    margin-left: 25% !important;
+}
+.navbar-links li 
+{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.navbar-links a 
+{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+.dropdown:hover .dropdown-menu 
+{
+    display: block !important;
+}
+
+@media only screen and (max-width:580px)
+{
+.leftsidebar,.rightsidebar
+{
+margin-left: 0 !important;  
+} 
+
+.navbar-links 
+{
+    margin-left: 0 !important;
+}
+.navbar-links li 
+{
+    display:block !important;
+    margin: 0;
+    padding: 0;
+}
+}

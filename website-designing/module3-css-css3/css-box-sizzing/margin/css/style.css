@@ -1,0 +1,39 @@
+/* what is margin : margin is provides space after border of any webpage i.e called margin
+      
+    margin:10px; // provides space from 4 sides left | right | top | bottom
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:10px;
+    margin-bottom:10px;
+
+
+*/
+
+
+/* what is padding ?
+   padding is provides space  between border and content i.e called padding
+   
+    padding:10px; // provides space from 4 sides left | right | top | bottom
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+
+
+*/
+
+body 
+{
+    background-color: lightslategray;
+    margin: 0;
+    padding: 0;
+}
+.box
+{
+    width: 50%;
+    height: auto;
+    background-color: white;
+    margin: 85px;
+    padding: 40px;
+    border: double 10px red;
+}

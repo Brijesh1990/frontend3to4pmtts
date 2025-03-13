@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <script>
+     function display()
+     {
+        document.getElementById("btn").style="display:none";
+        window.print();
+     }
+    </script>
+    <style>
+        .content 
+        {
+            width: 60%;
+            height: auto;
+            margin: auto;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <p>  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni porro, cupiditate iusto sit voluptates laborum accusamus tenetur, ullam, quod dignissimos iste esse dolores provident quis voluptas veniam soluta fuga quisquam!</p>
+        <p><button type="button" onclick="display()" id="btn">Print Me</button></p>
+    </div>
+</body>
+</html>

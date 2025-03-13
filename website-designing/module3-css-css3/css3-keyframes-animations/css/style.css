@@ -1,0 +1,81 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-color: lightgray;
+    /* -webkit-animation: 5s alternate anim;
+    -o-animation: 5s alternate anim;
+    -moz-animation: 5s alternate anim;
+    animation: 5s alternate anim; */
+
+
+    -webkit-animation: 15s infinite anim;
+    -o-animation: 15s infinite anim;
+    -moz-animation: 15s infinite anim;
+    animation: 15s infinite anim;
+}
+
+/* applied to changed multiple background colors via keyframes */
+
+@keyframes anim {
+
+   /* from
+   {
+    margin: 0;
+    padding: 0;
+    background-color: yellow;
+   }
+   to 
+   {
+
+    margin: 0;
+    padding: 0;
+    background-color: coral;
+   } */
+    
+   0%
+   {
+    margin: 0;
+    padding: 0;
+    background-color: yellow;
+   }
+   20% 
+   {
+
+    margin: 0;
+    padding: 0;
+    background-color: brown;
+   }
+   40% 
+   {
+
+    margin: 0;
+    padding: 0;
+    background-color: cadetblue;
+   }
+
+   60% 
+   {
+
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+   }
+   80% 
+   {
+
+    margin: 0;
+    padding: 0;
+    background-color: red;
+   }
+
+   100% 
+   {
+
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+   }
+}

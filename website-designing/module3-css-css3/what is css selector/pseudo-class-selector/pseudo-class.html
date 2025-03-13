@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        body 
+        {
+            margin: 0;
+            padding: 0;
+            top: 0 !important;
+            background-color: antiquewhite;
+        }
+        ul
+        {
+        
+            background-color: black;
+        } 
+        ul li 
+        {
+            top: 0 !important;
+            display: inline-block;
+            padding: 35px 10px;
+
+        }
+        a.active 
+        {
+            background-color: red;
+            padding: 35px 22px;
+
+        }
+        ul li a 
+        {
+            text-decoration: none;
+            list-style-type: none;
+            color: white;
+        }
+
+        /* pseudo class selector */
+
+        a:hover 
+        {
+         color: blue;  
+        }
+        a:visited
+        {
+            color: aqua; 
+        }
+        a:link
+        {
+            color: red; 
+        }
+        a:active
+        {
+            color: blue; 
+        }
+
+    </style>
+</head>
+<body>
+    
+    <ul>
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="#">Electronics</a></li>
+        <li><a href="#">Kids items</a></li>
+        <li><a href="#">Mens Items</a></li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,122 @@
+/* elastic layout : when we applied any width in em and height is em  that type of layout is called elastic layout 
+
+Note : if we create elastic layout it is not responsive but we can create using media query for responsive.
+    
+      1em=1/16px;
+
+
+*/
+
+
+@font-face {
+    font-family: cinzel;
+    src: url('../fonts/Cinzel-Regular.ttf');
+}
+body 
+{
+margin: 0;
+padding: 0;
+overflow-x: hidden;    
+font-family: cinzel;
+}
+#header
+{
+width: 81.25em;
+height: auto;
+background-color: lightblue;
+padding: 2.18em;
+display: grid;
+grid-template-columns: auto auto auto;
+}
+.call-us 
+{
+width: 15.625em;
+height: auto;    
+color: white;
+
+}
+.search-box
+{
+width: 34.375em;
+height: auto;    
+color: white;
+}
+.search-box input 
+{
+width: 37.5em;
+height: auto;
+padding: 0.3125em;
+}
+.social-media 
+{
+width: 78.125em;
+height: auto;
+margin-left: 10%;
+}
+#navbar
+{
+width: 87.5em;
+height: auto;
+display: grid;
+grid-template-columns: auto auto;
+background-color: black;
+color: white;
+}
+.logo
+{
+width: 18.75em;
+height: auto;
+margin-left: 10%;
+}
+.nav 
+{
+width: 1300px;
+height: auto;
+}
+.nav ul li 
+{
+    display: inline-block;
+    padding: 5px 20px;
+}
+.nav a 
+{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+#slider 
+{
+width: 1400px;
+height: auto;
+margin: auto;
+}
+.slider-img img
+{
+width: 1400px;
+height: 350px;
+}
+#content 
+{
+width: 1400px;
+height: auto;
+display: flex;
+}
+.sidebar 
+{
+width: 500px;
+height: 400px;
+background-color: gray;
+}
+.right-sidebar
+{
+    width: 900px;
+    height: 400px;
+    background-color: lightgray;
+}
+#footer
+{
+width: 1400px;
+height: 200px;
+background-color: black;
+padding: 10px;
+}

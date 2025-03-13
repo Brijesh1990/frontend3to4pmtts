@@ -1,0 +1,55 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background: lightgray;
+    /* background: -webkit-linear-gradient(left ,lightgray,black);
+    background: -webkit-linear-gradient(left ,lightgray,black);
+    background: -webkit-linear-gradient(left ,lightgray,black);
+    background: -webkit-linear-gradient(left ,lightgray,black);
+    background:  linear-gradient(to right,lightgray,black); */
+
+/* 
+    background: -webkit-linear-gradient(top ,lightgray,black);
+    background: -webkit-linear-gradient(top ,lightgray,black);
+    background: -webkit-linear-gradient(top ,lightgray,black);
+    background: -webkit-linear-gradient(top ,lightgray,black);
+    background:  linear-gradient(to bottom,lightgray,black); */
+
+
+    
+    /* background: -webkit-linear-gradient(top ,lightgray 30%,black 70%);
+    background: -webkit-linear-gradient(top ,lightgray 30%,black 70%);
+    background: -webkit-linear-gradient(top ,lightgray 30%,black 70%);
+    background: -webkit-linear-gradient(top ,lightgray 30%,black 70%);
+    background:  linear-gradient(to bottom,lightgray 30%,black 70%); */
+
+/* 
+    background: -webkit-linear-gradient(left ,lightgray 50%,black 50%);
+    background: -webkit-linear-gradient(left ,lightgray 50%,black 50%);
+    background: -webkit-linear-gradient(left ,lightgray 50%,black 50%);
+    background: -webkit-linear-gradient(left ,lightgray 50%,black 50%);
+    background:  linear-gradient(to right,lightgray 50%,black 50%); */
+
+
+    
+    background: -webkit-linear-gradient(left ,black,yellow,green);
+    background: -webkit-linear-gradient(left ,black,yellow,green);
+    background: -webkit-linear-gradient(left ,black,yellow,green);
+    background: -webkit-linear-gradient(left ,black,yellow,green);
+    background:  linear-gradient(to right,black,yellow,green);
+}
+
+.box 
+{
+    width: 50%;
+    height: auto;
+    /* background-color: rgba(45,0,0,0.1); */
+    background-color: white;
+    margin: auto;
+    margin-top: 5%;
+    padding: 25px;
+    color: black;
+}

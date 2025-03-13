@@ -1,0 +1,38 @@
+<script>
+    /*super : super is a method where we can access a parent class properties via its child class 
+    
+    super()
+    
+    */
+  
+/* 
+what is constructor in javascript ?
+  A constructor is a same name of class
+  A constructor is called when we create an object of class 
+  or
+  A constructor is automatically called when we create an object of class 
+
+*/
+
+class A 
+{
+    constructor(nm)
+    {
+        this.nm=nm;
+    }
+}
+
+class B extends A 
+{
+  constructor(nm,age,address)
+  {
+    super(nm);
+    this.age=age;
+    this.address=address;
+  }  
+}
+var obj=new B("brijesh",35,"rajkot");
+console.log(obj);
+
+
+</script>

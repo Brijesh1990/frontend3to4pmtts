@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='js/valid.js'></script>
+    <style>
+        .content 
+        {
+            width: 40%;
+            height: auto;
+            margin: auto;
+            padding: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h2>All field with <span style="color:red">*</span> sign is required</h2>
+      <form action="welcome.html" name="frm" onsubmit="return validations(this.value)">
+        <label>Name *</label>
+        <input type="text" placeholder="Name *" name="name" />
+        <br><br>
+
+        <label>Email *</label>
+        <input type="text" placeholder="Email *" name="email" />
+        <br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="submit" value="Submit" />
+        <input type="reset" value="Reset" />
+      </form>
+    </div>
+</body>
+</html>
