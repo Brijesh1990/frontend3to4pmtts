@@ -1,0 +1,109 @@
+body 
+{
+margin: 0;
+padding: 0;
+/* background: url('https://static.vecteezy.com/system/resources/thumbnails/040/293/889/small_2x/beautiful-sports-stadium-with-a-green-grass-field-shines-with-blue-spotlights-at-night-with-stars-sports-tournament-world-championship-photo.jpg') no-repeat;
+background-size: cover;
+background-position: center;     */
+}
+.navbar 
+{
+position: sticky;
+top: 0;
+background-color: #08346e;    
+z-index: 5 !important;
+}
+.navbar ul 
+{
+margin-left: 40%;
+}
+.navbar ul li 
+{
+display: inline-block;
+padding: 0px 25px;
+text-decoration: none;
+
+}
+.navbar a 
+{
+text-decoration: none;
+list-style-type: none;
+color: white !important;    
+}
+.dropdown
+{
+position: relative;
+margin: 0;
+padding: 0;
+}
+
+.dropdown-menu
+{
+background-color: #08346e;    
+position: absolute;
+display: none;
+min-width: 200px !important;
+margin: 0;
+padding: 0;
+
+}
+.dropdown:hover .dropdown-menu
+{
+ display: block;   
+}
+
+/* admin css */
+
+
+/* iccream main stylesheet */
+#icecream-header
+{
+width: 100%;
+height: auto;
+margin: auto;
+    
+}
+.icecream-rounded
+{
+top: 0 !important;    
+margin-top: -100% !important;    
+}
+
+
+/* admin stylesheet */
+
+.admin-sidebar  li 
+{
+display: block;
+padding: 10px 5px !important;
+font-size: 18px;
+
+}
+.admin-sidebar a 
+{
+color: white;
+text-decoration: none;
+list-style-type: none;    
+}
+
+@media only  screen and (max-width:580px)
+{
+    .navbar 
+    {
+    position: sticky;
+    top: 0;
+    background-color: #08346e;    
+    z-index: 5 !important;
+    }
+    .navbar ul 
+    {
+    margin-left: 0%;
+    }
+    .navbar ul li 
+    {
+    display:block;
+    padding: 10px 25px;
+    text-decoration: none;
+    
+    }    
+} 

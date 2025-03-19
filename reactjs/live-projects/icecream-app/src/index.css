@@ -1,0 +1,180 @@
+@import url('fonts-style.css');
+*
+{
+margin: 0;
+padding: 0;
+font-family: sans-regular;    
+}
+body 
+{
+box-sizing: border-box;
+overflow-x: hidden;   
+}
+#be-icecream-navbar
+{
+width: 100%;
+height: auto;
+position: sticky;
+top: 0;
+z-index: 5 !important;
+}
+.navbar-link
+{
+margin-left: 20%;    
+}
+.navbar-link li 
+{
+display: inline-block;
+padding: 0px 18px;
+text-decoration: none;
+list-style-type: none;    
+}
+.navbar-link a 
+{
+text-decoration: none;
+list-style-type: none;   
+color: black; 
+font-size: 18px;
+}
+#be-icecream-slider
+{
+width: 90%;
+height: auto;
+margin-left: 5%;
+margin-top: 5%;
+}
+.cafe-txt
+{
+font-weight: bolder;    
+font-size: 100px !important;
+}
+.cafe-txt-reg
+{
+font-size: 30px;
+font-weight: 100;
+color: black;
+margin-left: 8%;
+}
+#be-icecream-content
+{
+width: 100%;
+height: auto;
+}
+#be-icecream-footer
+{
+width: 100%;
+height: auto;
+}
+#main-content
+{
+display: none;    
+position: relative;
+}
+#icecream-loader
+{
+width: 400px;
+height: 380px;    
+position: absolute;
+left: 35%;
+top: 18%;
+background: url('../images/loader.gif') no-repeat;
+background-position: center;
+background-size: 400px 380px;    
+}
+.natural-products
+{
+width: 100% !important;
+height: auto !important;
+background: url('../images/bg-one.png') no-repeat !important;
+background-size: cover !important;
+background-position: center !important;    
+}
+.traditions-products
+{
+width: 100% !important;
+height: auto !important;
+background: url('../images/milk-bg.png') no-repeat !important;
+background-size: cover !important;
+background-position: center !important;    
+}
+
+.traditions-gallery
+{
+width: 100% !important;
+height: auto !important;  
+}
+.client-say img 
+{
+width: 85px !important;    
+height: 85px !important;
+}
+#be-icecream-page-banner
+{
+width: 100%;
+height: 200px;
+background: url('../src/assets/images/banner-page.jpg') no-repeat;
+background-size: cover;
+background-position: center;    
+}
+#be-icecream-page-banner ol li 
+{
+ padding: 25px 8px;
+ font-size: 25px;
+ text-decoration: none;
+ list-style-type: none;   
+}
+#be-icecream-page-banner a 
+{
+color: white !important;    
+}
+#be-icecream-footer
+{
+width: 100%;
+height: auto;    
+margin-top: 10% !important;
+}
+@media screen and (max-width:580px)
+{
+.navbar-link
+{
+margin-left: 0%;    
+}
+.navbar-link li 
+{
+display:block !important;
+padding:10px 18px;
+text-decoration: none;
+list-style-type: none;    
+}    
+#icecream-loader
+{
+width: 300px;
+height: 280px;    
+position: absolute;
+left: 25%;
+top: 20%;
+background: url('../images/loader1.gif') no-repeat;
+background-position: center;
+background-size: 300px 280px;    
+}
+.cafe-txt
+{
+font-weight: bolder;    
+font-size: 60px !important;
+}
+.cafe-txt-reg
+{
+font-size: 25px;
+font-weight: 100;
+color: black;
+margin-left: 8%;
+}
+.banner-img
+{
+width: 50%;
+height: auto;
+margin: 0;
+padding: 0;   
+}
+
+}
