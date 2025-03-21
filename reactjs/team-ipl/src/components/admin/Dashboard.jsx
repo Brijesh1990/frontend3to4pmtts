@@ -7,7 +7,7 @@ export default function Dashboard() {
 const[contactdata,setData]=useState(0);
 // applied use effects
 useEffect(()=>{
- axios.get(`http://localhost:3000/contact-us`).then((response)=>{
+ axios.get(`http://localhost:4000/addteams`).then((response)=>{
      setData(response.data);  
  })
 },[]);
@@ -89,7 +89,7 @@ return (
         <h1 className='text-2xl mt-2 text-white'>Total customers <span className='bi bi-person'>10</span></h1>
      </div>
      <div className='w-full p-3 bg-green-600 mt-7 m-5'>
-     <h1 className='text-2xl mt-2 text-white'>Total Contacts <span className='bi bi-person text-danger'><Link to="/admin-login/manage-contacts"><span className='w-5 bg-red-800 text-white p-2 rounded-full text-lg'>{contactdata.length}</span></Link></span></h1>
+     <h1 className='text-2xl mt-2 text-white'>Total Teams <span className='bi bi-person text-danger'><Link to="/admin-login/manage-teams"><span className='w-5 bg-red-800 text-white p-2 rounded-full text-lg'>{contactdata.length}</span></Link></span></h1>
      </div>
      <div className='w-full p-3 bg-yellow-500 mt-7 m-5'>
      <h1 className='text-2xl mt-3 text-white'>Total customers <span className='bi bi-person'>10</span></h1>

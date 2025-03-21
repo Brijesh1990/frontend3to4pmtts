@@ -10,10 +10,8 @@ import Layout from './Layout'
 // admin panel components load here
 import AdminLogin from './components/admin/AdminLogin'
 import AdminLayout from './AdminLayout'
-import ManageCustomers from './components/admin/ManageCustomers'
-import AddCategory from './components/admin/AddCategory'
-import AddSubCategory from './components/admin/AddSubCategory'
-import AddProducts from './components/admin/AddProducts'
+import AddTeams from './components/admin/AddTeams'
+import ManageTeams from './components/admin/ManageTeams'
 import ManageContacts from './components/admin/ManageContacts'
 import ManageOrders from './components/admin/ManageOrders'
 import ManageReviews from './components/admin/ManageReviews'
@@ -26,11 +24,9 @@ createRoot(document.getElementById('root')).render(
         <Route path='*' element={<Pagenotfound />} /> */}
         <Route path='/admin-login' element={<AdminLogin />} />
         <Route path='/admin-login/dashboard' element={<AdminLayout />} />
-        <Route path='/admin-login/manage-customers' element={<ManageCustomers />} />
-        <Route path='/admin-login/add-category' element={<AddCategory />} />
-        <Route path='/admin-login/add-subcategory' element={<AddSubCategory />} />
-        <Route path='/admin-login/add-products' element={<AddProducts />} />
-        <Route path='/admin-login/manage-reviews' element={<ManageReviews />} />
+        <Route path='/admin-login/add-teams' element={<AddTeams />} />
+        <Route path='/admin-login/manage-teams' element={<ManageTeams />} />
+         <Route path='/admin-login/manage-reviews' element={<ManageReviews />} />
         <Route path='/admin-login/manage-orders' element={<ManageOrders />} />
         <Route path='/admin-login/manage-contacts' element={<ManageContacts />} />
         

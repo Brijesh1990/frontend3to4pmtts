@@ -1,0 +1,50 @@
+{
+  "addteams": [
+    {
+      "id": "3367",
+      "teams": "RCB Team",
+      "photo": "https://static.cricbuzz.com/a/img/v1/1080x608/i1/c616007/rajat-patidar-was-retained-by-rcb-for-inr-11-crores-for-this-season.jpg",
+      "captname": "Rajat patidar",
+      "place": "Royal chaleger bangluru"
+    },
+    {
+      "id": "66ec",
+      "teams": "Chennai Team",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvj2_JROgHjDTjX7uH2Rg7ejXSe5-Fr2lQ-A&s",
+      "captname": "Ruturaj gayakwad",
+      "place": "Chennai superkings"
+    },
+    {
+      "id": "9608",
+      "teams": "Lucknow Team",
+      "photo": "https://www.lucknowsupergiants.in/static-assets/images/players/65756.png?v=12.59",
+      "captname": "Rishabh Pant",
+      "place": "Lucknow superjoint"
+    },
+    {
+      "id": "f4e0",
+      "teams": "Mumbai Team",
+      "photo": "https://m.economictimes.com/thumb/msid-119222076,width-1600,height-900,resizemode-4,imgsize-125174/mumbai-mumbai-indians-captain-hardik-pandya-during-a-press-conference-ahead-of-.jpg",
+      "captname": "Hardik pandya",
+      "place": "Mumbai kings"
+    }
+  ],
+  "allteams": [
+    {
+      "id": "1",
+      "team": "RCB Team"
+    },
+    {
+      "id": "2",
+      "team": "Chennai Team"
+    },
+    {
+      "id": "3",
+      "team": "Lucknow Team"
+    },
+    {
+      "id": "4",
+      "team": "Mumbai Team"
+    }
+  ]
+}

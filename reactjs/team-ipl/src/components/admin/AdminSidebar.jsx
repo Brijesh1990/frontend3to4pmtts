@@ -12,9 +12,9 @@ export default function AdminSidebar() {
         <li><Link to="/admin-login/dashboard"><span className='bi bi-house'></span> Dashboard</Link></li>
        
         
-        <li><Link to="/admin-login/add-category"><span className='bi bi-cart'></span> Add IPL Team</Link></li>
+        <li><Link to="/admin-login/add-teams"><span className='bi bi-cart'></span> Add IPL Team</Link></li>
         
-        <li><Link to="/admin-login/add-subcategory"><span className='bi bi-cart'></span> Manage Teams</Link></li>
+        <li><Link to="/admin-login/manage-teams"><span className='bi bi-cart'></span> Manage Teams</Link></li>
         
     <li><Link to="/admin-login/manage-contacts"><span className='bi bi-phone'></span> Manage Contacts</Link></li>
         
